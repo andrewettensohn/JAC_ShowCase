@@ -1,0 +1,72 @@
+<!--This page allows a user to apply-->
+<html>
+<title>Job Application Center</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+        <h1><b>Job Application Center</b></h1>
+        <p>Welcome to the Job Application Center <span class="w3-tag"></p>
+        <a href="../index.html">Main Page</a>
+    </header>
+    <!-- Header -->
+
+    <!-- Div for Formatting -->
+    <div class="w3-quarter">
+        <p></p>
+    </div>
+    <!-- Div for Formatting -->
+
+    
+    <!-- Application Form -->
+    <div class="w3-container w3-padding-32 w3-half">
+        <form enctype="multipart/form-data" class="w3-container w3-card-4">
+            <h2>Application</h2>
+
+            <input id="JobInterest" type="hidden" class="w3-hide" name="JobInterest">
+
+            <div class="w3-section">      
+                <input id="field1" class="w3-input" name="Name" maxlength="45" size="30" required>
+                <label>Name</label>
+            </div>
+
+            <div class="w3-section">      
+                <input id="field2" class="w3-input" name="Address" maxlength="30" size="30" required>
+                <label>Address</label>
+            </div>
+
+            <div class="w3-section">      
+                <input id="field3" class="w3-input" name="Email" maxlength="255" size="30" required>
+                <label>Email</label>
+            </div>
+
+            <div class="w3-section">   
+                <p><b>Upload Resume</b></p>
+                <p>It is recommended that you upload a resume for review by our hiring staff.</p>
+                <p>You must upload a file under 10MB that is a PDF, Word DOC, JPG, or JPEG.</p>
+                <input class="w3-button w3-padding-large w3-white w3-border w3-cell-middle" type="file" name="file" id="file" accept=".pdf, .docx, .jpg, .jpeg, .PNG" required></button>
+                <br>
+                <p id="errorField" class="w3-red"></p>
+                <br>
+                <button class="w3-button w3-padding-large w3-white w3-border w3-cell-middle" name="submit" id="submit" type="submit" value="submit"><b>Submit »</b></button>
+                <br>
+            </div>
+
+        </form>
+    </div>
+       <!-- Application Form -->
+
+</body>
+
+<script src="appForm.js"></script>
+
+</html>
+

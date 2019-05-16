@@ -1,0 +1,48 @@
+<html>
+<title>Job Application Center</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32"> 
+        <h1><b>Job Application Center</b></h1>
+        <p>Welcome to the Job Application Center <span class="w3-tag"></p>
+        <a href="../index.html">Main Page</a>
+    </header>
+    <!-- Header -->
+
+    <!-- Div for formatting -->
+    <div class="w3-quarter">
+        <p></p>
+    </div>
+    <!-- Div for formatting -->
+
+    <!-- Login Form -->
+    <div class="w3-container w3-padding-32 w3-half">
+        <form form action="adminLogin_data.php" method="post" enctype="multipart/form-data" class="w3-container w3-card-4" id="loginForm">
+            <h2>Login Form</h2>
+            <div class="w3-section">      
+            <input id="usernameField" class="w3-input" name="usernameField" maxlength="45" size="30" required>
+            <label>Username</label>
+            </div>
+            <div class="w3-section">      
+            <input type="password" id="passwordField" class="w3-input" name="passwordField" maxlength="30" size="30" required>
+                <label>Password</label>
+            </div>
+            <div class="w3-section">   
+            <button class="w3-button w3-padding-large w3-white w3-border w3-cell-middle w3-red" name="submit" id="submit" type="submit" value="Upload"><b>Login »</b></button>
+            </div>
+        </form>
+    </div>
+    <!-- Login Form -->   
+
+
+        </body>
+        </html>
