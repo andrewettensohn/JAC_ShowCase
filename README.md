@@ -1,9 +1,5 @@
 # JAC_ShowCase
 
-Please check out the site at http://ec2-18-232-155-220.compute-1.amazonaws.com
-
-A link to the admin dashboard is located at the bottom of the page. The username is user1 and the password is 1234.
-
 # applicationCenter
 
 This project provides a job applicaiton system, complete with user forms and adminstrator dashboard.
